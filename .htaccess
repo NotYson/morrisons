@@ -1,0 +1,20 @@
+# Apache (OVH, o2switch, Hostinger...): 404 page + 301 redirects from the old site's URLs.
+# VERIFY the real old URLs in Google Search Console (Pages report) before going live.
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+RewriteRule ^morrisons-fr/?$ /morrisons-pub-cannes/ [R=301,L,NC]
+RewriteRule ^morrisons-en/?$ /en/morrisons-pub-cannes/ [R=301,L,NC]
+RewriteRule ^morrisons/?$ /morrisons-pub-cannes/ [R=301,L,NC]
+RewriteRule ^the-lounge-fr/?$ /the-lounge-cannes/ [R=301,L,NC]
+RewriteRule ^the-lounge-en/?$ /en/the-lounge-cannes/ [R=301,L,NC]
+RewriteRule ^the-lounge/?$ /the-lounge-cannes/ [R=301,L,NC]
+RewriteRule ^bar-a-vin-fr/?$ /bar-a-vin-cannes/ [R=301,L,NC]
+RewriteRule ^bar-a-vin-en/?$ /en/bar-a-vin-cannes/ [R=301,L,NC]
+RewriteRule ^bar-a-vin/?$ /bar-a-vin-cannes/ [R=301,L,NC]
+RewriteRule ^the-quays-fr/?$ /the-quays-cannes/ [R=301,L,NC]
+RewriteRule ^the-quays-en/?$ /en/the-quays-cannes/ [R=301,L,NC]
+RewriteRule ^the-quays/?$ /the-quays-cannes/ [R=301,L,NC]
+RewriteRule ^frensh-fr/?$ /frensh-restaurant-cannes/ [R=301,L,NC]
+RewriteRule ^frensh-en/?$ /en/frensh-restaurant-cannes/ [R=301,L,NC]
+RewriteRule ^frensh/?$ /frensh-restaurant-cannes/ [R=301,L,NC]

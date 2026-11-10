@@ -1,0 +1,32 @@
+# Netlify / Cloudflare Pages: 301 redirects from the old site's URLs.
+# VERIFY the real old URLs in Google Search Console (Pages report) before going live.
+/morrisons-fr  /morrisons-pub-cannes/  301
+/morrisons-fr/  /morrisons-pub-cannes/  301
+/morrisons-en  /en/morrisons-pub-cannes/  301
+/morrisons-en/  /en/morrisons-pub-cannes/  301
+/morrisons  /morrisons-pub-cannes/  301
+/morrisons/  /morrisons-pub-cannes/  301
+/the-lounge-fr  /the-lounge-cannes/  301
+/the-lounge-fr/  /the-lounge-cannes/  301
+/the-lounge-en  /en/the-lounge-cannes/  301
+/the-lounge-en/  /en/the-lounge-cannes/  301
+/the-lounge  /the-lounge-cannes/  301
+/the-lounge/  /the-lounge-cannes/  301
+/bar-a-vin-fr  /bar-a-vin-cannes/  301
+/bar-a-vin-fr/  /bar-a-vin-cannes/  301
+/bar-a-vin-en  /en/bar-a-vin-cannes/  301
+/bar-a-vin-en/  /en/bar-a-vin-cannes/  301
+/bar-a-vin  /bar-a-vin-cannes/  301
+/bar-a-vin/  /bar-a-vin-cannes/  301
+/the-quays-fr  /the-quays-cannes/  301
+/the-quays-fr/  /the-quays-cannes/  301
+/the-quays-en  /en/the-quays-cannes/  301
+/the-quays-en/  /en/the-quays-cannes/  301
+/the-quays  /the-quays-cannes/  301
+/the-quays/  /the-quays-cannes/  301
+/frensh-fr  /frensh-restaurant-cannes/  301
+/frensh-fr/  /frensh-restaurant-cannes/  301
+/frensh-en  /en/frensh-restaurant-cannes/  301
+/frensh-en/  /en/frensh-restaurant-cannes/  301
+/frensh  /frensh-restaurant-cannes/  301
+/frensh/  /frensh-restaurant-cannes/  301
